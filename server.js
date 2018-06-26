@@ -21,4 +21,4 @@ app.listen(PORT, () => {
 	Local: localhost:${PORT}
 	On Your Network: 192.168.1.100:${PORT}
 		`)));
-})
+});
