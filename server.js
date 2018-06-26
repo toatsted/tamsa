@@ -3,22 +3,25 @@ const bodyParser = require("body-parser");
 const chalk = require("chalk");
 const path = require("path");
 
+const PORT = process.env.PORT || 3001;
 const app = express();
-const PORT = 8080;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.use(express.static(path.join(`${__dirname}/public`)));
+// Serve up static assets (usually on heroku)
+if (process.env.NODE_ENV === "production") {
+    app.use(express.static("client/build"));
+}
 
-require("./routing/api")(app);
-require("./routing/html")(app);
+// Define API routes here
+
+// Send every other request to the React app
+// Define any API routes before this runs
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
 
 app.listen(PORT, () => {
-	require("clear")();
-	console.log(chalk.underline(chalk.bgHex('#442fce')
-		(`
-	Local: localhost:${PORT}
-	On Your Network: 192.168.1.100:${PORT}
-		`)));
-})
+    console.log(`♪♫ ==> Server now on port ${PORT}!`);
+});
