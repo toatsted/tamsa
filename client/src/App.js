@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Masthead from './components/Masthead';
 import IconGrid from './components/IconGrid';
 import ImgShowcase from './components/ImgShowcase';
+import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
         <Masthead />
         <IconGrid />
         <ImgShowcase />
+        <CallToAction />
         <Footer />
       </div>
     );
