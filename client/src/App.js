@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Nav from './components/Nav';
 import Masthead from './components/Masthead';
 import IconGrid from './components/IconGrid';
+import ImgShowcase from './components/ImgShowcase';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Nav />
         <Masthead />
         <IconGrid />
+        <ImgShowcase />
       </div>
     );
   }
