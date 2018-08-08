@@ -9,7 +9,8 @@ export default class Masthead extends Component {
           <div class="container">
             <div class="row">
               <div class="col-xl-9 mx-auto">
-                <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
+                <h1 class="mb-5">Texans Advocating for Meaningful Student Assessments</h1>
+                <h2>Join our email list today!</h2><br />
               </div>
               <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                 <form>

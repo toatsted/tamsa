@@ -11,22 +11,22 @@ export default class IconGrid extends Component {
 						<div class="row">
 							<div class="col-lg-4">
 								<Icon 
-									title="Fully Responsive"
-									disc="This theme will look great on any device, no matter the size!"
+									title="Legislation"
+									disc="Stay up-to-date on testing related Legislation"
 									icon="icon-screen-desktop"
 								/>	
 							</div>
 							<div class="col-lg-4">
 								<Icon 
-									title="Bootstrap 4 Ready"
-									disc="Featuring the latest build of the new Bootstrap 4 framework!"
+									title="Get Involved"
+									disc="Ways you can get involved in advocating for appropriate student testing"
 									icon="icon-layers"
 								/>	
 							</div>
 							<div class="col-lg-4">
 								<Icon 
-									title="Easy to Use"
-									disc="Ready to use with your own content, or customize the source files!"
+									title="TAMSA Blog"
+									disc="TAMSA activities on testing policy"
 									icon="icon-check"
 								/>	
 							</div>
