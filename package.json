@@ -1,7 +1,7 @@
 {
-  "name": "mern",
+  "name": "tamsa-react",
   "version": "1.0.0",
-  "description": "Mern Demo",
+  "description": "redesign of the tamsa website",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -12,8 +12,9 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
-  "author": "",
+  "author": "Sam Hicks",
   "license": "ISC",
+  "repository": "https://github.com/toatsted/tamsa",
   "devDependencies": {
     "concurrently": "^3.5.0",
     "nodemon": "^1.11.0"
