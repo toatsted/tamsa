@@ -10,4 +10,9 @@ module.exports = function(app) {
 		res.sendFile(path.join(__dirname +
 			"/../pages/legislature.html"))
 	})
+
+	app.get("/blog", (req, res) => {
+		res.sendFile(path.join(__dirname +
+			"/../pages/blog.html"))
+	})
 }

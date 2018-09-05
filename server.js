@@ -15,7 +15,6 @@ require("./routing/api")(app);
 require("./routing/html")(app);
 
 app.listen(PORT, () => {
-	require("clear")();
 	console.log(chalk.underline(chalk.bgHex('#442fce')
 		(`
 	Local: localhost:${PORT}
