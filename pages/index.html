@@ -26,10 +26,12 @@
 
   <body>
     <!-- nav -->
-    <nav class="navbar navbar-default navbar-static-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <a class="navbar-header" href="#"><img src="https://placehold.it/50x50" alt="tamsa logo"></a>
-        <p class="">Nonpartisan.    Grassroots.    Statewide.</p>
+        <div class="group">
+        <a class="navbar-header" href="/home"><img src="https://placehold.it/50x50" alt="tamsa logo"></a>
+          <p class="slogan">Nonpartisan. Grassroots. Statewide.</p>
+        </div>
         <ul>
           <a class="btn" href="/">Home</a>
           <a class="btn" href="/legislature">Legislature</a>
@@ -41,7 +43,7 @@
     </nav>
 
     <!-- contact -->
-    <div class="navbar navbar-light bg-light static-top">
+    <div id="contact" class="navbar navbar-static-top">
       <div class="container">
         <a class="navbar-header" href="#">boardmember@tamsatx.org</a>
         <ul>
@@ -78,34 +80,36 @@
     </header>
 
     <!-- Icons Grid -->
-    <section class="features-icons bg-light text-center">
-      <div class="container">
+    <section class="features-icons grey-background text-center">
+      <div class="container asdf">
         <div class="row">
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
-                <i class="icon-screen-desktop m-auto text-primary"></i>
+                <a href="/legislature" class="m-auto">
+                  <i class="icon-screen-desktop tamsa-red"></i>
+                </a>
               </div>
-              <h3>Legislation</h3>
-              <p class="lead mb-0">Stay up-to-date on testing related Legislation</p>
+              <h3 class="text-light">Legislation</h3>
+              <p class="lead mb-0 text-light">Stay up-to-date on testing related Legislation</p>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
-                <i class="icon-layers m-auto text-primary"></i>
+                <i class="icon-layers m-auto tamsa-red"></i>
               </div>
-              <h3>Get Involved</h3>
-              <p class="lead mb-0">Ways you can get involved in advocating for appropriate student testing</p>
+              <h3 class="text-light">Get Involved</h3>
+              <p class="lead mb-0 text-light">Ways you can get involved in advocating for appropriate student testing</p>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="features-icons-item mx-auto mb-0 mb-lg-3">
               <div class="features-icons-icon d-flex">
-                <i class="icon-check m-auto text-primary"></i>
+                <i class="icon-check m-auto tamsa-red"></i>
               </div>
-              <h3>TAMSA Blog</h3>
-              <p class="lead mb-0">TAMSA activities on testing policy</p>
+              <h3 class="text-light">TAMSA Blog</h3>
+              <p class="lead mb-0 text-light">TAMSA activities on testing policy</p>
             </div>
           </div>
         </div>
@@ -117,8 +121,8 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters">
 
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-1.jpg');">
-           <div class="container text-center">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img">
+           <div class="container text-center" id="twitter-container">
             <a class="twitter-timeline"
               href="https://twitter.com/TAMSATX?ref_src=twsrc%5Etfw"
               data-height="600"
@@ -128,41 +132,12 @@
           </div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
             <h2>Eliminate over-testing and under-investing in Texas students</h2></p><br />
-            <p class="lead mb-0">TAMSA: Nonpartisan, Grassroots, Statewide </p><br />
-            <p class="lead mb-0">TAMSA is a statewide, grassroots organization of parents and community members condered with the overemphasis on high stakes STAAR tests and the misallocation of hundreds of millions of taxpayer dollars to the tests that should be going to the classroom.</p></p><br />
-            <p class="lead mb-0">TAMSA's mission is to improve public education in Texas through the use of meaningful and effective student assments that allow for more productive classroom instruction and more efficient use of public funds.</p></p><br />
+            <p class="lead mb-0"><span class="tamsa-red">TAMSA:</span> Nonpartisan, Grassroots, Statewide </p><br />
+            <p class="lead mb-0"><span class="tamsa-red">TAMSA</span> is a statewide, grassroots organization of parents and community members condered with the overemphasis on high stakes STAAR tests and the misallocation of hundreds of millions of taxpayer dollars to the tests that should be going to the classroom.</p></p><br />
+            <p class="lead mb-0"><span class="tamsa-red">TAMSA's</span> mission is to improve public education in Texas through the use of meaningful and effective student assments that allow for more productive classroom instruction and more efficient use of public funds.</p></p><br />
           </div>
         </div>
         <div class="row no-gutters">
-          <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-2.jpg');"></div>
-          <div class="col-lg-6 my-auto showcase-text">
-            <h2>Updated For Bootstrap 4</h2>
-            <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Call to Action -->
-    <section class="call-to-action text-white text-center">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-9 mx-auto">
-            <h2 class="mb-4">Ready to get started? Sign up now!</h2>
-          </div>
-          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-            <form>
-              <div class="form-row">
-                <div class="col-12 col-md-9 mb-2 mb-md-0">
-                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-                </div>
-                <div class="col-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-                </div>
-              </div>
-            </form>
-          </div>
         </div>
       </div>
     </section>
@@ -205,7 +180,7 @@
               </li>
               <li class="list-inline-item">
                 <a href="#">
-                  <i class="fa fa-instagram fa-2x fa-fw"></i>
+                  <i class="fa fa-rss fa-2x fa-fw"></i>
                 </a>
               </li>
             </ul>

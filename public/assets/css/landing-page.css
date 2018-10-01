@@ -12,26 +12,19 @@ h6 {
   font-weight: 700;
 }
 
+.navbar {
+  background-color: #fbfdff;
+}
+
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-color: #094074;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-header.masthead .overlay {
-  position: absolute;
-  background-color: #212529;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 header.masthead h1 {
@@ -40,8 +33,8 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -84,20 +77,6 @@ header.masthead h1 {
   font-size: 5rem;
 }
 
-.testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-.testimonials .testimonial-item {
-  max-width: 18rem;
-}
-
-.testimonials .testimonial-item img {
-  max-width: 12rem;
-  box-shadow: 0px 5px 5px 0px #adb5bd;
-}
-
 .call-to-action {
   position: relative;
   background-color: #343a40;
@@ -125,3 +104,30 @@ footer.footer {
   padding-bottom: 4rem;
 }
 
+.group .slogan {
+  word-spacing: 3rem;
+  font-weight: bold;
+  color: #2b2d42;
+}
+
+#twitter-container {
+  background: #eeebd3;
+}
+
+.twitter-timeline {
+  margin: 0;
+  position: absolute;
+}
+
+#contact {
+  background: #fbfdff;
+}
+
+.tamsa-red {
+  color: #ff3022;
+  font-weight: bold;
+}
+
+.grey-background {
+  background-color: #2b2d42;
+}
