@@ -23,6 +23,11 @@ module.exports = function(app) {
 
 	app.get("/media", (req, res) => {
 		res.sendFile(path.join(__dirname +
-			"/../pages/meida.html"))
+			"/../pages/media.html"))
+	})
+
+	app.get("/help", (req, res) => {
+		res.sendFile(path.join(__dirname +
+			"/../pages/help.html"))
 	})
 }
