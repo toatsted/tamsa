@@ -19,6 +19,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #094074;
+  /* background: url("http://tamsatx.org/uploads/3/4/4/6/34460330/header_images/1351631165.jpg") no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -95,8 +96,6 @@ footer.footer {
 }
 
 .twitter-timeline {
-  margin: 0;
-  position: absolute;
 }
 
 #contact {

@@ -5,3 +5,8 @@ section.link-dropdowns {
 section.main-session {
 	padding: 30px 0;	
 }
+
+.new-tamsa-red {
+  background-color: #ff3022;
+  color: #fff;
+}
