@@ -30,4 +30,24 @@ module.exports = function(app) {
 		res.sendFile(path.join(__dirname +
 			"/../pages/help.html"))
 	})
+
+	app.get("/legPriorities", (req, res) => {
+		res.sendFile(path.join(__dirname +
+			"/../pages/legPriorities.html"))
+	})
+
+	app.get("/billTracker", (req, res) => {
+		res.sendFile(path.join(__dirname +
+			"/../pages/billTracker.html"))
+	})
+
+	app.get("/legCommittees", (req, res) => {
+		res.sendFile(path.join(__dirname +
+			"/../pages/legCommittees.html"))
+	})
+
+	app.get("/resources", (req, res) => {
+		res.sendFile(path.join(__dirname +
+			"/../pages/resources.html"))
+	})
 }
