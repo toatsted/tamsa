@@ -1,0 +1,22 @@
+nav.navbar {
+  padding: 0;
+}
+
+section.titlecard {
+  background: #0B4F6C;
+}
+
+nav.navbar ul {
+  list-style: none;
+}
+
+nav.navbar li {
+  display: inline;
+}
+
+
+
+div.slogan {
+  padding: 1rem;
+  font-size: 2rem;
+}

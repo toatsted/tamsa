@@ -1,0 +1,30 @@
+section.masthead button {
+  background: #DB0003;
+  border: none;
+}
+
+section.linkrow {
+  padding: 3rem;
+}
+
+section.linkrow a.btn {
+  font-size: 2rem;
+  background: #DB0003;
+  border: none;
+}
+
+section.showcase ul.points {
+  list-style: none;
+}
+
+section.showcase ul.points li p {
+  font-size: 2rem;
+}
+
+section.showcase h2,
+section.showcase h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #040F16;
+}
+

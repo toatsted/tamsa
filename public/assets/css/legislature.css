@@ -1,12 +1,11 @@
-section.link-dropdowns {
-	padding: 30px 0;
+@media (min-width: 1024px) {
+  .hide-desktop {
+     display: none;
+   }
 }
 
-section.main-session {
-	padding: 30px 0;	
-}
-
-.new-tamsa-red {
-  background-color: #ff3022;
-  color: #fff;
+@media (max-width: 1024px) {
+  .display-desktop {
+    display: none;
+  }
 }
