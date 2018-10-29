@@ -18,7 +18,11 @@ section.showcase ul.points {
 }
 
 section.showcase ul.points li p {
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+section.showcase ul.points li {
+  margin: 2rem 0;
 }
 
 section.showcase h2,
