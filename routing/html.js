@@ -9,19 +9,12 @@ module.exports = function(app) {
     res.render("legislature");
 	})
 
-	app.get("/blog", (req, res) => {
-		res.sendFile(path.join(__dirname +
-			"/../pages/blog.html"))
-	})
-
 	app.get("/about", (req, res) => {
-		res.sendFile(path.join(__dirname +
-			"/../pages/about.html"))
+    res.render("about");
 	})
 
 	app.get("/media", (req, res) => {
-		res.sendFile(path.join(__dirname +
-			"/../pages/media.html"))
+    res.render("media");
 	})
 
 	app.get("/help", (req, res) => {
@@ -29,22 +22,18 @@ module.exports = function(app) {
 	})
 
 	app.get("/legPriorities", (req, res) => {
-		res.sendFile(path.join(__dirname +
-			"/../pages/legPriorities.html"))
+    res.render("legPriorities");
 	})
 
 	app.get("/billTracker", (req, res) => {
-		res.sendFile(path.join(__dirname +
-			"/../pages/billTracker.html"))
+    res.render("billTracker");
 	})
 
 	app.get("/legCommittees", (req, res) => {
-		res.sendFile(path.join(__dirname +
-			"/../pages/legCommittees.html"))
+    res.render("legCommittees");
 	})
 
 	app.get("/resources", (req, res) => {
-		res.sendFile(path.join(__dirname +
-			"/../pages/resources.html"))
+    res.render("resources");
 	})
 }
