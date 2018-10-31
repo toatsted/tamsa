@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
-import LinksAndDocs from '../components/LinksAndDocs'
+import Titlecard from '../components/Titlecard/Titlecard';
 
 export default class Legislature extends Component {
   render() {
     return (
-	   	<LinksAndDocs /> 
+      <div className="legislaturePage">
+        <Titlecard>TAMSA Advocacy Tools & Legislative Priorities</Titlecard>
+      </div>
     )
   }
 }

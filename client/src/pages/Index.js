@@ -1,23 +1,17 @@
 import React, { Component } from 'react';
 
-import Masthead from '../components/Masthead';
-import IconGrid from '../components/IconGrid';
-import ImgShowcase from '../components/ImgShowcase';
-import CallToAction from '../components/CallToAction';
-import Footer from '../components/Footer';
+import Masthead from '../components/Masthead/Masthead';
+import Linkrow from '../components/Linkrow/Linkrow';
+import Showcase from '../components/Showcase/Showcase';
 
-class Index extends Component {
+export default class Index extends Component {
   render() {
     return (
-      <div className="Index">
+      <div className="indexPage">
         <Masthead />
-        <IconGrid />
-        <ImgShowcase />
-        <CallToAction />
-        <Footer />
+        <Linkrow />
+        <Showcase />
       </div>
-    );
+    )
   }
 }
-
-export default Index;

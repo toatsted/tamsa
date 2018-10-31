@@ -1,0 +1,13 @@
+section.masthead {
+  background: #0B4F6C;
+}
+
+section.masthead button {
+  background: #DB0003;
+  border: none;
+}
+
+section.masthead .slogan {
+  padding: 1rem;
+  font-size: 2rem;
+}

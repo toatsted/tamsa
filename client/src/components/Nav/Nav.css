@@ -1,0 +1,12 @@
+nav.navbar {
+  padding: 0;
+}
+
+nav.navbar ul {
+  list-style: none;
+}
+
+nav.navbar li {
+  display: inline;
+  margin: 0 1rem;
+}

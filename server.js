@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const chalk = require("chalk");
 const path = require("path");
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8080;
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -23,5 +23,5 @@ app.get("*", (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`♪♫ ==> Server now on port ${PORT}!`);
+    console.log(`🌎 => Server now on port ${PORT}!`);
 });

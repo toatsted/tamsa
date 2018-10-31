@@ -1,0 +1,18 @@
+section.showcase ul.points {
+  list-style: none;
+}
+
+section.showcase ul.points li p {
+  font-size: 1.5rem;
+}
+
+section.showcase ul.points li {
+  margin: 2rem 0;
+}
+
+section.showcase h2,
+section.showcase h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #040F16;
+}
