@@ -4,6 +4,7 @@ nav.navbar {
 
 section.titlecard {
   background: #0B4F6C;
+  margin-bottom: 1rem;
 }
 
 nav.navbar ul {
@@ -13,8 +14,6 @@ nav.navbar ul {
 nav.navbar li {
   display: inline;
 }
-
-
 
 div.slogan {
   padding: 1rem;

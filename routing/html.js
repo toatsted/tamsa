@@ -21,19 +21,19 @@ module.exports = function(app) {
     res.render("help");
 	})
 
-	app.get("/legPriorities", (req, res) => {
+	app.get("/legislature/priorities", (req, res) => {
     res.render("legPriorities");
 	})
 
-	app.get("/billTracker", (req, res) => {
+	app.get("/legislature/billTracker", (req, res) => {
     res.render("billTracker");
 	})
 
-	app.get("/legCommittees", (req, res) => {
+	app.get("/legislature/committees", (req, res) => {
     res.render("legCommittees");
 	})
 
-	app.get("/resources", (req, res) => {
+	app.get("/legislature/resources", (req, res) => {
     res.render("resources");
 	})
 }

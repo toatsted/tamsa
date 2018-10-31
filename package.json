@@ -1,13 +1,12 @@
 {
   "name": "tamsa",
   "version": "1.0.0",
-  "description": "",
+  "description": "A rebuild of the webside for the Texans Advocating for Meaningful Student Assessments",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Sam Hicks",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
