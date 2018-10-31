@@ -9,3 +9,7 @@
     display: none;
   }
 }
+
+.card-img-top {
+  height: 300px;
+}
