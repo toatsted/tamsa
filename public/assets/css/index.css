@@ -15,8 +15,8 @@ section.linkrow {
   padding: 3rem;
 }
 
-section.linkrow a.btn {
-  font-size: 2rem;
+section.linkrow div.card p {
+  font-size: 1rem;
   background: #DB0003;
   border: none;
 }
