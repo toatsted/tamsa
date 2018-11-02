@@ -4,6 +4,7 @@ section.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-bottom: 7rem;
 }
 
 section.masthead button {
@@ -11,18 +12,28 @@ section.masthead button {
   border: none;
 }
 
+section.masthead h1,
+section.masthead p {
+  text-shadow: 10px 10px 10px #000000;
+}
+
 section.linkrow {
   padding: 3rem;
 }
 
-section.linkrow div.card p {
-  font-size: 1rem;
+section.linkrow a {
+  font-size: 1.5rem;
   background: #DB0003;
+  color: #ffffff;
   border: none;
 }
 
 section.showcase ul.points {
   list-style: none;
+}
+
+section.showcase div.heads img {
+  height: 8rem;
 }
 
 section.showcase ul.points li p {
