@@ -21,6 +21,10 @@ section.linkrow {
   padding: 3rem;
 }
 
+div.inputrow {
+  margin-top: 2rem;
+}
+
 section.linkrow a {
   font-size: 1.5rem;
   background: #DB0003;
