@@ -1,5 +1,9 @@
 nav.navbar {
-  padding: 0;
+  padding: 1rem;
+}
+
+nav .navbar-header {
+  height: 3rem;
 }
 
 section.titlecard {
