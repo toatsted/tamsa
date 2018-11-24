@@ -9,3 +9,6 @@ node_modules/
 
 *.tmux
 */*.tmux
+
+react/
+react/*
