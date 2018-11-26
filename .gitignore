@@ -7,4 +7,12 @@ node_modules/
 .*.swp
 */.*.swp
 
+<<<<<<< HEAD
 react/
+=======
+*.tmux
+*/*.tmux
+
+react/
+react/*
+>>>>>>> 04c5c2ce63512dd685163459e7d9b618299fb54e
