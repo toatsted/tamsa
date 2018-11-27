@@ -42,11 +42,6 @@
       <!-- End Constant Contact Inline Form Code -->
     </div>
   </div>
-  <div class="row">
-    <div class="col-12 text-center">
-      <p>asdf</p>
-    </div>
-  </div>
 </div>
 
 <!-- linkrow -->
@@ -70,7 +65,7 @@
         <div class="mx-auto mb-5 mb-lg-0 mb-lg-3">
           <a class="m-auto btn" href="/legislature/billtracker">2019 Bill Tracker</a>
         </div>
-        <p clagit puss="lead">Track legislation filed in the 2019 86th Legislative Session</p>
+        <p class="lead">Track legislation filed in the 2019 86th Legislative Session</p>
       </div>
       <div class="col-lg-3">
         <div class="mx-auto mb-5 mb-lg-0 mb-lg-3">
@@ -129,4 +124,7 @@
   </div>
 </section>
 
-
+<!-- Begin Constant Contact Active Forms -->
+<script> var _ctct_m = "790bdda0e6f41611385487d607359262"; </script>
+<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+<!-- End Constant Contact Active Forms -->
