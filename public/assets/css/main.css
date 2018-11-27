@@ -23,3 +23,7 @@ div.slogan {
   padding: 1rem;
   font-size: 2rem;
 }
+
+.bold {
+  font-weight: bold;
+}
