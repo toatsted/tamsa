@@ -28,6 +28,6 @@ div.slogan {
   font-weight: bold;
 }
 
-::-moz-list-bullet {
-    list-style-type: square type square;
+list-bullet {
+    list-style-type: square;
 }
