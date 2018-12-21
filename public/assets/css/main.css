@@ -27,3 +27,7 @@ div.slogan {
 .bold {
   font-weight: bold;
 }
+
+::-moz-list-bullet {
+    list-style-type: square type square;
+}
